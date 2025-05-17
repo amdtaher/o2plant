@@ -11,7 +11,6 @@ const page = () => {
     <>
       <menu>
         <div className='bg hero-bg'>
-          {/* <Hero0/>  */}
           <Hero/>
           <Trendy/>
         </div>
