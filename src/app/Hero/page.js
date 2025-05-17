@@ -11,7 +11,7 @@ import {
   CarouselPrevious,
 } from "@/Components/ui/Carousel"
 
-const page = () => {
+const Page = () => {
     const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
     let plants = [
     {
@@ -88,4 +88,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
