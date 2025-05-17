@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Page = () => {
 
@@ -63,13 +64,13 @@ const Page = () => {
           {/* Single Plant */}
           {plants.map( plant => (
             <div key={plant.id} className='bg card-bg rounded-[50px] lg:max-w-lg flex flex-col justify-center text-white/70 px-5 md:px-0 pt-10 pb-16'>
-              <img className='-mt-24 md:-mt-32' src={plant.img}/>
+              <Image className='-mt-24 md:-mt-32' src={plant.img}/>
               <div className='flex flex-col capitalize pl-0 md:pl-10'>
                 <h2 className='text-4xl md:text-5xl font-semibold my-3'>{plant.name}</h2>
                 <p className='text-base md:text-xl max-w-[30ch] my-4'>{plant.text}</p>
                 <div className='flex items-center justify-between gap-2 md:pr-10 md:gap-8'>
                   <h4 className='text-2xl md:text-4xl text-center' href='#'>{plant.price}</h4>
-                  <a href='#'><img className='opacity-60 w-2/3 md:w-full' src='/images/cart.webp'/></a>
+                  <a href='#'><Image className='opacity-60 w-2/3 md:w-full' src='/images/cart.webp'/></a>
                 </div>
               </div>
             </div>
