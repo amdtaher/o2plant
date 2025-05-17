@@ -10,7 +10,7 @@ import {
   CarouselPrevious,
 } from "@/Components/ui/Carousel"
 
-const page = () => {
+const Page = () => {
   const [activeIndex, setActiveIndex] = useState(0)
   const o2 = [
     {
@@ -90,4 +90,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
