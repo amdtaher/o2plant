@@ -10,13 +10,13 @@
   background-size: cover;
 }
 .hero-bg{
-  background-image: url(/images/hero-bg.png);
+  background-image: url(/images/hero-bg.webp);
 }
 .card-bg{
-  background-image: url(/images/bg-card.png);
+  background-image: url(/images/bg-card.webp);
 }
 .review-card-bg{
-  background-image: url(/images/review-card-bg.png);
+  background-image: url(/images/review-card-bg.webp);
 }
 
 .inter{
