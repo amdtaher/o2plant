@@ -8,7 +8,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/components/ui/Carousel"
 
 const page = () => {
   const [activeIndex, setActiveIndex] = useState(0)
