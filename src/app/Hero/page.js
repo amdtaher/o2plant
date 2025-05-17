@@ -9,7 +9,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/components/ui/Carousel"
 
 const page = () => {
     const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
