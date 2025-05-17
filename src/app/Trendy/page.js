@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   return (
     <>
     {/* Trendy Plants */}
@@ -52,4 +52,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
