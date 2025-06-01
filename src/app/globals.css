@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.leaf-color{
+  background: #1B2316;
+}
+.bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-bg{
+  background-image: url(/images/hero-bg.webp);
+}
+.card-bg{
+  background-image: url(/images/bg-card.webp);
+}
+.review-card-bg{
+  background-image: url(/images/review-card-bg.webp);
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
