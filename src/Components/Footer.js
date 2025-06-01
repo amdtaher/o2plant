@@ -18,7 +18,7 @@ const Footer = () => {
             <Link href='#' className='opacity-70'>+440 234 683 302</Link>
           </li>
           <li className='flex flex-col justify-center items-start gap-2.5 md:text-lg'>
-            <h4 className='text-xl font-semibold capitalize pb-2'>our link's</h4>
+            <h4 className='text-xl font-semibold capitalize pb-2'>our links</h4>
             <Link href='#'>home</Link>
             <Link href='#'>about</Link>
             <Link href='#'>products</Link>

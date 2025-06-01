@@ -28,7 +28,7 @@ const Navigation = () => {
                     <Link href='#'><Image src='/images/search.webp' width={24} height={24} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" alt='search'/></Link>
                     <Link href='#'><Image src='/images/cart0.webp' width={24} height={24} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" alt='cart'/></Link>
                 </div>
-                <Link className='md:hidden' href='#' onClick={()=>{setShow(show => !show)}}><img src='/images/menu.webp'/></Link>
+                <Link className='md:hidden' href='#' onClick={()=>{setShow(show => !show)}}><img src='/images/menu.webp' alt='img'/></Link>
             </div>
         </nav>
     </>
